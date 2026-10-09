@@ -1,0 +1,47 @@
+ body {
+            font-family: Arial, sans-serif;
+        }
+
+        .form-container {
+            width: 450px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            min-height: 100vh;
+            background-color: bisque;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: inline-block;
+            width: 150px;
+           
+        }
+
+        input {
+            padding: 8px;
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+
+        button {
+            padding: 8px 20px;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: azure;
+            text-decoration-color: black;
+        }

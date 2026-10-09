@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio showcasing academic background, technical skills, projects, and contact information." />
+   <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+     <div class="page-grid">
+      <header class="side-header">
+   
+        <nav aria-label="Primary">
+       
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+           <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    
+  </header>
+
+  <main class="container">
+    <!-- Hero / About -->
+    <section id="about" class="hero">
+      <div>
+        <h1>Hello, I’m Prachi — a Web developer intern  focused on Frontend development.</h1>
+        <p class="lead"> I’m seeking for Frontend developer internship where I can contribute to Frontend development.</p>
+        <div class="cta-row">
+         
+          <a class="btn" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+   
+    </section>
+
+    <!-- Academics -->
+    <section id="academics">
+      <h2>Academic Background</h2>
+      <div class="grid">
+        <div class="edu-card">
+          <h3>Degree Name — Bachelors Of Computer Applications</h3>
+          <div class="meta">2022 – 2025 • Mumbai • 7.5 CGPA</div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="grid">
+        <div class="skills">
+          <!-- Edit these tags to match your stack -->
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">JavaScript / TypeScript</span>
+          <span class="skill-tag">HTML & CSS</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Git & GitHub</span>
+          <span class="skill-tag">Linux</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+      <section id="projects">
+        <h2>Selected Projects</h2>
+        <div class="projects-grid">
+          
+          <!-- Project 1 -->
+          <article class="project-card">
+            <h3>Smart Expense Tracker</h3>
+            <div class="tags">
+              <span>React</span><span>Node.js</span><span>MongoDB</span>
+            </div>
+            <p>A web app to track personal expenses with category-wise insights and monthly summaries.</p>
+            <div class="actions">
+              <a class="btn" href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a class="btn" href="#" target="_blank" rel="noopener">Source Code</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <h3>Weather Dashboard</h3>
+            <div class="tags">
+              <span>JavaScript</span><span>REST API</span><span>CSS</span>
+            </div>
+            <p>Fetches real-time weather data for multiple cities and displays forecasts with icons and charts.</p>
+            <div class="actions">
+              <a class="btn" href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a class="btn" href="#" target="_blank" rel="noopener">Source Code</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+   <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="grid">
+        <div class="contact-wrap">
+          <form id="contactForm" novalidate>
+            <div>
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+              <div class="error-msg" id="nameError"></div>
+            </div>
+            <div>
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" placeholder="jane@example.com" required />
+              <div class="error-msg" id="emailError"></div>
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Hello! I’d like to discuss..." required></textarea>
+              <div class="error-msg" id="messageError"></div>
+            </div>
+            <button class="btn primary" type="submit">Send Message</button>
+            <div class="success-banner" id="successBanner">Thanks! Your message has been sent.</div>
+          </div>
+        </form>
+        <div class="contact-side">
+          <h3>Direct contact</h3>
+          <p><strong>Email:</strong> prachimorey56@gmail.com</p>
+          <p><strong>LinkedIn:</strong> <a href="#" target="_blank" rel="noopener">linkedin.com/in/yourhandle</a></p>
+          <p><strong>GitHub:</strong> <a href="#" target="_blank" rel="noopener">github.com/yourhandle</a></p>
+          <p><strong>Location:</strong> Mumbai, India</p>
+          <p class="help">Open to opportunities in Frontend developer.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Prachi Morey. Built with semantic HTML  and modern CSS.
+    </div>
+  </footer>
+
+  
+  </div>
+</body>
+</html>
